@@ -47,6 +47,8 @@
     <arg name="joy_dev" value="$(arg joy_dev)"/>
   </include>
 
+  <include file="$(find orne_box_bringup)/launch/includes/twist_mux.launch"/> 
+
   <include file="$(find orne_box_bringup)/launch/includes/cost_cloud_postprocessor.launch">
     <arg name="cloud_source" value="$(arg cloud_source)"/>
   </include>

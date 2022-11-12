@@ -2,7 +2,7 @@
 <launch>
   <arg name="joy_dev" default="/dev/input/js0"/>
   <arg name="joy_config" default="joy"/>
-  <arg name="cmd_vel" default="cmd_vel"/>
+  <arg name="cmd_vel" default="joy_vel"/>
   <arg name="teleop_config" default="$(find orne_box_bringup)/config/teleop_joy.yaml" /> 
   <node pkg="joy" type="joy_node" name="joy_node">
     <param name="dev" value="$(arg joy_dev)"/>
