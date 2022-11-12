@@ -21,7 +21,7 @@
     <arg name="init_pos_file" value="$(arg init_pos_file)"/>
   </include>
 
-  <include file="$(find orne_box_navigation_executor)/launch/waypoint_server.launch">
+  <include file="$(find orne_box_navigation_executor)/launch/waypoint_server_stop.launch">
     <arg name="config_file" value="$(arg waypoint_config)"/>
   </include>
 
