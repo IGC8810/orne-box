@@ -1,0 +1,16 @@
+topics:
+-
+  name    : move_base
+  topic   : nav_vel
+  timeout : 0.5
+  priority: 10
+-
+  name    : teleop_twist_joy
+  topic   : joy_vel
+  timeout : 0.5
+  priority: 100
+-
+  name    : vel_stopper
+  topic   : stop_vel
+  timeout : 0.5
+  priority: 50
